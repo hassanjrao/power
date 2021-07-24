@@ -1,0 +1,641 @@
+
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --blue: #368fc5;
+    --navyblue: #1b6d96;
+    --orange: #f44336;
+    --whiteoff: rgba(212, 212, 212, 0.993);
+    --whitered: rgb(223, 221, 221); 
+    --corn: #e1ad01;
+}
+
+
+* {
+    font-family: 'Roboto ', sans-serif;
+}
+
+
+body {
+    overflow-x: hidden;
+}
+
+
+/* Header start */
+
+    .topbar{
+        list-style: none;
+    }
+    .topbarr a {
+        text-decoration: none;
+    }
+    .topbarr a:hover{
+            color: var(--blue);
+    }
+
+    header .row .col .li {
+        text-align:right;
+    }
+    .login-hover:hover {
+        color: var(--black);
+    }
+
+    .navbar .collapse  ul li a:hover {
+        color: var(--blue);
+    }
+
+    nav .container .collapse ul li a  {
+        color: var(--black);
+    }
+
+
+        /* side navbar */
+        .sidenav {
+            height: 100%;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            right: 0;
+            background-color: #368fc5;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 10px;
+        }
+        
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            display: block;
+            transition: 0.3s;
+        }
+        
+        .sidenav a:hover {
+            color: var(--black);
+        }
+        
+        .sidenav .closebtn {
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+        
+        
+        @media screen and (max-height: 450px) {
+            .sidenav {padding-top: 15px;}
+            .sidenav a {font-size: 18px;}
+        }
+
+      /* end side navbar */
+/* header end */
+
+
+
+
+/* Index section start */
+
+ #hero-section {
+    color: white;
+    background-image: url("../Images/header-with-gradient-guy.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px ;
+}
+
+.centered {
+    margin-top: 4em;
+    color: var(--white);
+    
+}
+
+ .centered1 {
+    margin-top: 2em;
+    margin-left: 3em;
+    color: var(--white);  
+} 
+
+
+/* section end */
+
+
+
+/* Home start*/
+
+#header-guy {
+    margin-top: 700px;
+}
+
+.carddata, h5 {
+  background-color:var(--blue);
+  height: 95%;
+  color: var(--white);
+  padding-top: 30px;     
+}
+
+.button {
+    background-color: var(--blue);
+    color: var(--navyblue);
+    padding-left: 10px;
+    padding-right: 10px ;
+}
+
+.button:hover {
+    background-color:#f44336;
+}
+ .col .card img {
+     width:40%;
+     text-align:center;
+}
+
+.h1 {
+    color:var(--blue);
+}
+
+.text-on-img {
+     background-image: url("../Images/img.png");
+     background-position:start;
+     position:relative;
+     background-repeat: no-repeat;
+     background-size:100%;
+    }
+
+#card-on-img {
+    padding-top: 6%;
+ }
+
+ #card-on-img h4 {
+    color:var(--navyblue);  
+ }
+
+#white-card{
+    background-color: var(--white);
+    width: 90%;
+    height: 110%;
+ }
+
+ #white-card .card-text{
+    color:var(--black);
+ }
+
+
+
+ .search-btn {
+    background-color: var(--blue);
+    color: var(--white);
+    width:160px;    
+ }
+
+.textjustify {
+    text-align: justify;
+    text-justify: inter-word;
+ }
+ 
+ /* home end */
+
+
+ /* what are you looking btn */
+    #btns button  { 
+        background-color: var(--blue);
+        color: var(--white);
+        width:330px;
+     
+    }
+  
+   
+    
+        .line {         
+        /* Increase this as per requirement */
+        padding-bottom: 1px;
+        border-bottom: solid var(--blue) ;
+        border-bottom-width: 4px;
+        width: fit-content;
+    }
+    .line1 {
+        padding-bottom: 1px;
+        border-bottom: solid  ;
+        border-bottom-width: 4px;
+        width: fit-content;
+    }
+
+    #underlineing , #underline-color-blue{
+        text-decoration: underline;
+        text-decoration-color: var(--blue);
+    }
+    #placeH ::placeholder{
+        font-size: 11px;
+    }
+
+    /* media query for section */ 
+
+    @media (min-width: 500px) and (max-width: 990px) {
+        section {
+            background-size: 100%;
+        }
+    }
+
+/* Air Conditioning page */
+#linear-gradiant {
+        background-image: linear-gradient(to left, var(--navyblue), var(--white));
+}
+#headbtn {
+    width: 3em;
+}
+#space1-bg-image {
+    background-image: url('../Images/img-categories.png');
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: auto ;  */
+    /* margin-right:10px;   */
+}
+
+#space2-color {
+    background-color: var(--whiteoff);
+}
+
+
+.space>p {
+    line-height: 1.9;  
+}
+.search-air-btn {
+    background-color:var(--blue);
+    color: var(--white);
+    padding: .4em;
+}
+.search-air-btn:hover {
+    color: var(--black)
+}
+
+
+.bg-image {
+    background-image: url("../Images/belief-img.png");
+    background-position:center;
+    position:relative;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    height: auto ;
+    
+
+}
+/* end Air Conditioning page  */
+
+
+
+/* Our categories */
+    #category-bg-image {
+        background-image: url('../Images/back.png');
+        background-position:center;
+        position:relative;
+        background-repeat: no-repeat;
+        background-size:cover;
+        margin-right: 3em;
+        height:auto;
+        /* overflow-x: hidden ; */
+    }
+    .category-btns button {
+        color: var(--navyblue);
+        width: 100%;
+        /* margin-right: em; */
+        /* margin-top: 45px; */
+        /* padding-right: 2em;     */
+
+        /* overflow-x: hidden ; */
+    }
+    .category-btns a button:hover {
+    background-color: var(--whiteoff)
+    }
+/* end Our categories*/
+
+/* contact */
+#contact-bg-image {
+    background-image: url('../Images/back.png');
+    background-position:center;
+    /* position:relative; */
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* margin-right: 3em; */
+    height:auto;
+    /* overflow-x: hidden ; */
+}
+
+/* end contact */
+
+/* Add listing page */
+#AddListing-bg-image {
+background-image: url('../Images/back-1.png');
+background-position:center;
+background-repeat: no-repeat;
+background-size:cover;
+margin: 2.5em;
+height: auto;    
+}
+
+/* start pricing tags */
+
+.row-clr {
+    background-color: var(--whitered) ;
+}
+.pricingTable{
+    text-align: center;
+    height: auto;
+}
+
+.pricingTable .value{
+    display: block ;
+    font-size: 25px;
+    font-weight: 800;
+    color: var(--blue);
+    background: var(--white);
+    padding: 10px 0 10px;
+    margin: 0px 15px 0 0;
+    transition: all 0.4s ease 0s;
+}
+.pricingTable .valuecol3{
+    display: block ;
+    font-size: 25px;
+    font-weight: 800;
+    color: var(--white);
+    background: var(--blue);
+    padding: 10px 0 10px;
+    margin: 0px 15px 0 0;
+    transition: all 0.4s ease 0s;
+}
+.pricingTable:hover .month,
+.pricingTable:hover .monthcol3,
+.pricingTable:hover .value , .valuecol3{
+    color: var(--white);
+}
+.pricingTable .month{
+    display: block;
+    font-size: 19px;
+    font-weight: 600;
+    color: var(--black);  
+}
+
+.pricingTable .monthcol3{
+    display: block;
+    font-size: 19px;
+    font-weight: 600;
+    color: var(--white);  
+}
+.pricingTable .content ul{
+    padding: 0;
+    margin: 0 15px 0 0;
+    list-style: none;
+    background: var(--white);
+}
+.pricingTable .content ul li{
+    display:block;
+    font-size: 15px;
+    color: var(--black);
+    line-height: 28px;
+    padding: 11px 0;
+    border-bottom: 1px solid #f2f2f2;
+}
+.pricingTable #content1 ul li{
+    display:block;
+    font-size: 15px;
+    color: var(--white);
+    line-height: 28px;
+    padding: 11px 0;
+    border-bottom: 1px solid #f2f2f2;
+}
+#bg-light-clr  {
+    background-color: var(--whiteoff) ;
+}
+#bg-light-clr1  {
+    background-color: var(--blue) ;
+}
+#bg-light-clr2  {
+    background-color: var(--navyblue) ;
+}
+.pricingTable .link{
+    background: var(--white);
+    padding: 30px 0;
+    margin-right: 15px;
+    border-bottom: 1px solid #f2f2f2;
+}
+.pricingTable .link1{
+    background: var(--navyblue);
+    padding: 30px 0;
+    margin-right: 15px;
+    border-bottom: 1px solid #f2f2f2;
+}
+/* col 2 */
+.RECOMENDED {
+    background-color: var(--blue);
+    color: var(--white);
+    width: 180px;
+    display:-moz-inline-box;
+    text-align:center;
+    /* float: center; */
+    padding: 10px;
+    /* margin-left: 70px; */
+}
+.pricingTable .link a{
+    display: inline-block;
+    padding: 10px 30px;
+     font-weight: 700;
+    color: var(--white);
+    text-decoration: none;
+    background: var(--blue);
+    transition: all 0.4s ease 0s;
+}
+
+.pricingTable .link1 a{
+    display: inline-block;
+    padding: 10px 40px;
+    font-weight: 700;
+    color: var(--white);
+   text-decoration: none;
+    background: var(--blue);
+    transition: all 0.4s ease 0s;
+}
+.pricingTable:hover .link a{
+    color: var(--black);
+    background: var(--blue);
+    border: 1px solid var(--blue);
+}
+.pricingTable:hover .link1 a{
+    color: var(--black);
+    background: var(--blue);
+    border: 1px solid var(--blue);
+}
+.pricingTable:hover .pricing_heading:after,
+.pricingTable:hover .value{
+    background: var(--blue);
+}
+
+@media only screen and (max-width: 990px){
+    .pricingTable{
+        margin-bottom: 35px;
+    }
+}   
+
+
+
+/* end pricing card */
+
+
+/*  end Add listing page */
+
+
+/* start add listing 2 page */
+#addListing2-bg-image {
+    background-image: url('../Images/back.png');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:auto;
+}
+/* end add listing  2 page */
+
+
+/* start Result for moving */
+    .result-bg-image{
+        background-image: url("../Images/belief-img.png");
+        background-position:right;
+        /* position:relative; */
+        background-repeat: no-repeat;
+        background-size:cover ;
+        height: auto;
+    }
+
+    .result-card-head {
+        background-color: var(--blue);
+    }
+    .nobullets ul li{
+        list-style: none;
+        font-size: 20px;
+        margin-left: -30px;
+    }
+
+    /* rating card */
+
+    .bg-label-warning {
+        margin-left: 10px;
+        font-size: 14px;
+        padding: 3px;
+        background-color: var(--corn);
+    }
+    .form-check .form-check-input[type=checkbox] {
+        height: 20px;
+        width: 20px;
+        border: 3.5px solid black;
+        
+    }
+    .form-check .form-check-input[type=radio] {
+        border-radius: 100%;
+        height: 20px;
+        width: 20px;
+        border: 3px solid black;
+    }
+
+
+    nav  ul .page-item .page-link:hover{
+        background-color : var(--blue);
+        
+    }
+    /* end rating card */
+/* end Result for moving */
+
+/* UAC last page */
+    #linear-gradiant1 {
+        background-image: linear-gradient(to left, var(--navyblue), var(--white));
+    
+    }
+    .uac-bg-image {
+        color: white;
+        background-image: url("../Images/company-page-back.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-top: 20px;
+        background-size: cover;
+        height: auto ;
+        
+    }
+    .uac-btn {
+        color:var(--blue);
+        text-decoration: none;
+    }
+    .uac-btn:hover {
+        color:var(--navyblue);
+    }
+    .uac-btn1 {
+        text-decoration: none;
+    }
+    .uac-btn1:hover{
+        color:var(--navyblue);
+    }
+
+   
+    #uac-navbar-clr li a:hover {
+        background-color:var(--white);
+    }
+   .address {
+       margin-left: 30px;
+   }
+   .navbar-toggler {
+    border: 2px solid ;
+    font-weight: bold;
+    }
+
+    .nav-link{
+        letter-spacing: 2px;
+    }
+
+
+ 
+/* End UAC */
+
+/* Footer start */
+footer{
+    background-color: var(--navyblue);
+    position:static;
+    color: var(--white);
+    font-weight:bold;   
+}
+
+#footer-col3 img{
+    width: 50px;
+}
+
+#navi-col{
+    padding-left:80px;
+}
+#navi {
+    padding: 0px !important;
+    height: 190px;
+    font-size:16px;
+
+}
+#navi li a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+#getupdateImg {
+    width: 0px;
+}
+
+/* footer end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
