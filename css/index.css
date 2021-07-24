@@ -200,8 +200,11 @@ body {
     #btns button  { 
         background-color: var(--blue);
         color: var(--white);
-        width:330px;
      
+    }
+    .btnwidth {
+        width:100%;
+
     }
   
    
@@ -294,16 +297,10 @@ body {
         background-size:cover;
         margin-right: 3em;
         height:auto;
-        /* overflow-x: hidden ; */
     }
     .category-btns button {
         color: var(--navyblue);
         width: 100%;
-        /* margin-right: em; */
-        /* margin-top: 45px; */
-        /* padding-right: 2em;     */
-
-        /* overflow-x: hidden ; */
     }
     .category-btns a button:hover {
     background-color: var(--whiteoff)
@@ -314,12 +311,9 @@ body {
 #contact-bg-image {
     background-image: url('../Images/back.png');
     background-position:center;
-    /* position:relative; */
     background-repeat: no-repeat;
     background-size:cover;
-    /* margin-right: 3em; */
     height:auto;
-    /* overflow-x: hidden ; */
 }
 
 /* end contact */
@@ -338,10 +332,11 @@ height: auto;
 
 .row-clr {
     background-color: var(--whitered) ;
+    
 }
 .pricingTable{
     text-align: center;
-    height: auto;
+    /* height: auto; */
 }
 
 .pricingTable .value{
@@ -556,6 +551,8 @@ height: auto;
         margin-top: 20px;
         background-size: cover;
         height: auto ;
+        /* width: 100%; */
+
         
     }
     .uac-btn {
